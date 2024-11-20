@@ -21,6 +21,11 @@ export default function Home() {
               Sign In
             </Button>
           </Link>
+          <Link href="/public">
+            <Button variant="outline" className="w-full" size="lg">
+              Browse Public Notes
+            </Button>
+          </Link>
           <p className="text-center text-sm text-gray-500">
             Don't have an account?{" "}
             <Link href="/signup" className="text-indigo-600 hover:text-indigo-500">
